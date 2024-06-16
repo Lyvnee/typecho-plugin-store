@@ -3,19 +3,24 @@
 
 > 收集一些常用的Typecho插件
 
-- ~~Duoshuo：多说评论插件(author [Rakiy][1])，上传至站点`/usr/plugins/`，启用插件,在后台`管理->多说评论`做相关设置；~~（已停止维护）
+### 使用帮助
 
-- [Stat][4]：浏览量统计插件(author [Hanny][2])，上传至站点`/usr/plugins/`，在后台`控制台`启用插件即可。
+- 下载想要使用的插件，上传至站点`/usr/plugins/`目录，在后台`控制台`->`插件`中启用插件，并按说明进行相关设置即可。
+- 各插件的具体使用方法，请查阅插件目录中`README`文件。
 
-- [Links][3]：友链插件(author [Hanny][2])，上传至站点`/usr/plugins/`，后台`控制台`启用插件，在后台`管理->友情链接`添加友链。友链插件->[帮助文档][3]
+### 插件索引
 
-- [Sitemap][5] ：站点地图插件(author [joyqi][6])，上传至站点`/usr/plugins/`，后台`控制台`启用插件。
+名称 | 简介 | 版本 | 作者 | 备注
+---- | ---- | :---: | ----: | :----:
+[~~Duoshuo~~][1]| 多说评论插件 |1.1.2|[Rakiy][10]| 已停止维护
+[Stat][4]|页面浏览量统计插件|1.0.2|[Hanny][2]|在需要输出的地方插入`<?php $this->views(); ?>次浏览`这样子的代码即可，放在div或者p标签里都行。
+[Links][3]|友链插件|1.1.1|[Hanny][2]|[帮助文档][3]
+[Sitemap][5]|站点地图插件|1.0.0|[joyqi][6]| 
+[CommentNotifier][7]|评论邮件提醒插件|1.6.3|[jrotty][8]|适用Typecho1.2.0及以上版本
+[Snowstorm][9]| 飘雪插件|1.0.1|[Rakiy][10]|让你的博客飘起雪花来....
 
-- [CommentNotifier][7] ：评论邮件提醒插件(author [jrotty][8])，上传至站点`/usr/plugins/`，后台`控制台`启用插件,并按说明进行设置发信参数。
 
-- [Snowstorm][9]: 飘雪插件(author [Rakiy][10]), 让你的博客飘起雪花来....
-
-[1]: http://ysido.com/
+[1]: https://github.com/duoshuo/duoshuo-typecho
 [2]: http://www.imhan.com
 [3]: http://www.imhan.com/archives/typecho-links/
 [4]: http://www.imhan.com/typecho/
